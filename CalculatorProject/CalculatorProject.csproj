@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CalculatorProject.Polymorphism.Program</StartupObject>
+    <StartupObject>CalculatorProject.InterfaceExample.Principal</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,11 +47,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="InterfaceExample\Ave.cs" />
+    <Compile Include="InterfaceExample\AvePropiedades.cs" />
+    <Compile Include="InterfaceExample\Camion.cs" />
+    <Compile Include="InterfaceExample\Coche.cs" />
+    <Compile Include="InterfaceExample\IAve.cs" />
+    <Compile Include="InterfaceExample\IVehiculo.cs" />
+    <Compile Include="InterfaceExample\Moto.cs" />
+    <Compile Include="InterfaceExample\Principal.cs" />
+    <Compile Include="InterfaceExample\Vehiculo.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
     <Compile Include="PensionPlan\Program.cs" />
+    <Compile Include="Polymophism\Circle.cs" />
     <Compile Include="Polymophism\Program.cs" />
+    <Compile Include="Polymophism\Rectangle.cs" />
+    <Compile Include="Polymophism\Shape.cs" />
     <Compile Include="Polymophism\Student.cs" />
+    <Compile Include="Polymophism\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
